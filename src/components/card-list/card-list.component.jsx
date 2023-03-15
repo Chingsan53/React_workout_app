@@ -12,7 +12,6 @@ class CardList extends Component {
                             <h2 className='text-2xl font-medium'>{monster.name}</h2>
                             <p>{monster.email}</p>
                         </div>
-
                     ))}
                 </div>
             </div>
