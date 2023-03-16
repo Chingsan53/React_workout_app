@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'bigelow-rules': ['"Bigelow Rules"', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }
